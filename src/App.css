@@ -6,3 +6,116 @@
 body {
   font-family: 'Nunito', sans-serif !important;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    width: fit-content;
+    margin: auto;
+  }
+}
+ 
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    width: fit-content;
+    margin: auto;
+  }
+}
+
+/* Home Pgae */
+h1.top-heading {
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+p.top-des {
+  text-align: center;
+  font-size: 22px;
+}
+a.btn-inline-down {
+  font-size: 20px;
+  padding: 15px 35px;
+  color: #ffffff;
+  border-color: #0098f7;
+  background: #0098f7;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+}
+a.btn-inline-ex {
+  font-size: 20px;
+  padding: 15px 35px;
+  color: #252525;
+  border-color: #ffffff;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+}
+
+.row-btn a {
+  margin: 10px;
+}
+.gif-home-img {
+  margin: 50px 0 50px 0;
+}
+p.text-bold {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #515151;
+}
+.bg-dark-color {
+  background: #f5f5f5;
+  padding: 100px;
+  margin-bottom: 100px;
+}
+p.heading-text {
+  text-align: center;
+  font-size: 33px;
+  color: #353535;
+  margin-bottom: 50px;
+}
+.bg-white {
+  padding: 50px;
+  box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.top-space {
+  margin-top: 80px;
+  text-align: center;
+}
+p.text-small {
+  text-align: center;
+}
+p.inline-title {
+  font-size: 27px;
+  color: #353535;
+  margin-left: 50px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+p.inline-des {
+  color: #515151;
+  font-size: 16px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+a.inline-btn {
+  color: #fff;
+  background: #0098F7;
+  border-radius: 2px 2px 2px 2px;
+  padding: 12px 24px 12px 24px;
+  margin-left: 50px;
+}
+a.plan-btn {
+  color: #fff;
+  background: #0098F7;
+  border-radius: 2px 2px 2px 2px;
+  padding: 12px 24px 12px 24px;
+}
+.plan-btn-style {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
