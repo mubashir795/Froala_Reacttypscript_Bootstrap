@@ -119,3 +119,23 @@ a.plan-btn {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+/* Features Page */
+p.gen-title {
+  font-size: 42px;
+}
+p.grey-text {
+  color: #8892a0;
+  font-size: 24px;
+  margin-top: 25px;
+  line-height: 32px;
+}
+.box-top-space {
+  margin-top: 60px;
+}
+p.grid-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #353535;
+  padding-top: 15px;
+}
