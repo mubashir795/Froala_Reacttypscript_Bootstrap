@@ -139,3 +139,73 @@ p.grid-title {
   color: #353535;
   padding-top: 15px;
 }
+
+/* Download Page */
+span.bg-light-color {
+  background: #bde3fb5c;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.center-text.col-sm-4 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+p.top-text {
+  text-align: center;
+  font-size: 33px;
+  color: #353535;
+  margin-bottom: 50px;
+}
+/* Docs Page */
+.doc-card.col-sm-4 {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 5px;
+  color: #7a7a7a;
+  padding-top: 0.8em;
+  margin-top: 20px;
+}
+h3.text-light {
+  font-weight: 300;
+  color: #353535 !important;
+  line-height: 1.5;
+  font-size: 30px;
+}
+p.text-light {
+  color: #333 !important;
+  margin-top: 50px;
+}
+.r-btn.highlight {
+  color: #fff;
+  background: #0098F7;
+  border-radius: 2px 2px 2px 2px;
+  padding: 12px 24px 12px 24px;
+  margin-bottom: 50px;
+}
+.btn-inline {
+  margin-top: 50px;
+}
+img.entered.lazyloaded {
+  margin-top: 20px;
+}
+/* Online Page */
+.online-card.col-sm-3 {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 5px;
+  color: #7a7a7a;
+  padding-top: 0.8em;
+  margin-top: 20px;
+}
+h3.online-light {
+  font-weight: 700;
+  color: #353535;
+  line-height: 1.5;
+}
+p.online-text-light {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #333;
+  padding-bottom: 40px;
+}
