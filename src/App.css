@@ -190,6 +190,12 @@ img.entered.lazyloaded {
   margin-top: 20px;
 }
 /* Online Page */
+.online-icon {
+  color: #0098f7;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .online-card.col-sm-3 {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -197,15 +203,86 @@ img.entered.lazyloaded {
   color: #7a7a7a;
   padding-top: 0.8em;
   margin-top: 20px;
+  margin-right: 10px;
 }
 h3.online-light {
   font-weight: 700;
   color: #353535;
   line-height: 1.5;
+  font-size: 19px;
 }
 p.online-text-light {
   padding-left: 20px;
   padding-right: 20px;
   color: #333;
   padding-bottom: 40px;
+}
+.strong {
+  font-weight: 600;
+}
+.button {
+  text-align: center;
+  margin-top: 50px;
+}
+/* Sencha */
+
+a.btn-onliline-ex {
+  font-size: 20px;
+  padding: 15px 35px;
+  color: #fff;
+  border-color: #0098F7;
+  background: #0098F7;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+}
+a.btn-explore {
+  margin-right: 10px;
+  text-decoration: none;
+}
+p.SenchaTitle {
+  font-size: 24px;
+  color: #404040;
+  line-height: 1.5;
+}
+p.BlueHeading {
+  font-size: 28px;
+  font-weight: 500;
+  color: #0098f7;
+}
+img.ProductCalloutIMG {
+  box-sizing: border-box;
+  border: 4px solid;
+  color: #d8d8d8;
+}
+p.PriceBoxTitle {
+  text-align: center;
+  color: #0098f7;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 1.5;
+}
+.PriceBox.col-sm-6 {
+  border: 2px dashed #5da2f1;
+  vertical-align: top;
+  padding: 10px 30px;
+  margin-right:10px;
+}
+a.TrialBtn {
+  color: #fff;
+  background: #5da2f1;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 100px;
+  display: block;
+}
+.PricingBoxRow {
+  margin-bottom: 100px;
+}
+.bottom-space {
+  margin-bottom: 100px;
+}
+.KeyFeatureROW {
+  margin-bottom: 100px;
 }

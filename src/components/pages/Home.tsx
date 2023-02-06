@@ -26,13 +26,9 @@ function Home() {
             <Col sm={4}></Col>
           </Row>
           <Row>
-            <Col xs={2} md={2}></Col>
-            <Col xs={8} md={8}>
-              <div className='gif-home-img'>
-                  <Link to='/'><img src={require('../images/MultiFeatureDemo3.gif')} width="950" height="578"/></Link>
-              </div>
-            </Col>
-            <Col xs={2} md={2}></Col>
+            <Col SM={2}></Col>
+            <Col SM={8}><Link to='/'><img src={require('../images/MultiFeatureDemo3.gif')} width="950" height="578"/></Link></Col>
+            <Col SM={2}></Col>
           </Row>
           <Row>
             <Col sm={3}></Col>
