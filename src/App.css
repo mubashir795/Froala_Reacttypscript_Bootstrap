@@ -286,3 +286,53 @@ a.TrialBtn {
 .KeyFeatureROW {
   margin-bottom: 100px;
 }
+/* Customer Page */
+.TopSpace {
+  margin-top: 100px;
+}
+.GreyBox {
+  background: #f5f5f5;
+  padding: 40px;
+  margin-top: 50px !important;
+}
+p.TextDes {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.col-md.col-sm-6.GreyBox {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+p.TextTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #353535;
+  padding-top: 15px;
+}
+
+/* Solution Page */
+.BgImage{
+  background-image: url("./components/images/HeroBannerBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px 100px 0px;
+}
+h1.WhiteTextHeading {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+p.WhiteTextDes {
+  color: #FFFFFF;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: center;
+  padding-top: 50px;
+}
+.BgCenterIm {
+  text-align: center;
+  margin-top: 50px;
+}

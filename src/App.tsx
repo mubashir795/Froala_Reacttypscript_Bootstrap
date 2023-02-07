@@ -9,6 +9,8 @@ import Download from './components/pages/Download';
 import Docs from './components/pages/Docs';
 import Online from './components/pages/Online';
 import Sencha from './components/pages/Sencha';
+import Customers from './components/pages/Customers';
+import Solution from './components/pages/Solution';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Route path='/docs' element={<Docs/>} />
       <Route path='/online' element={<Online/>} />
       <Route path='/sencha' element={<Sencha/>} />
+      <Route path='/customers' element={<Customers/>} />
+      <Route path='/solution' element={<Solution/>} />
     </Routes>
     <Footer/>
     </>
