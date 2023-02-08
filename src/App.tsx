@@ -11,6 +11,8 @@ import Online from './components/pages/Online';
 import Sencha from './components/pages/Sencha';
 import Customers from './components/pages/Customers';
 import Solution from './components/pages/Solution';
+import Pricing from './components/pages/Pricing';
+import Tour from './components/pages/Tour';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Route path='/sencha' element={<Sencha/>} />
       <Route path='/customers' element={<Customers/>} />
       <Route path='/solution' element={<Solution/>} />
+      <Route path='/pricing' element={<Pricing/>} />
+      <Route path='/tour' element={<Tour/>} />
     </Routes>
     <Footer/>
     </>

@@ -336,3 +336,63 @@ p.WhiteTextDes {
   text-align: center;
   margin-top: 50px;
 }
+.SolutionBox {
+  background: #F5F5F5;
+  border-radius: 7px 7px 7px 7px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px #cccccc;
+  padding: 30px 12px 30px 12px;
+  margin-left: 10px;
+}
+.SolutionRow {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+h3.SolutionBoxTilte {
+  padding-top: 10px;
+  font-size: 19px;
+  color: #000;
+  font-weight: 600;
+}
+p.SolutionBoxDes {
+  text-align: right;
+  color: #0098F7;
+  font-size: 13px;
+  font-weight: 800;
+}
+.BlueTitle {
+  color: #0098F7;
+  font-weight: 600;
+}
+.BGBlue {
+  background: #0198F7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+a.WhiteBtn {
+  color: #0198f7;
+  background: #fff;
+  padding: 12px 24px 12px 24px;
+}
+/* Pricing Page */
+.BgWhiteC {
+  background: #fff;
+}
+.BgSky {
+  background: #edf5ff;
+}
+.PricingRow {
+  box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* Tour Page */
+.BlueColor {
+  color: #0098F7;
+}
+input#formBasicEmail {
+  margin-bottom: 20px;
+}
