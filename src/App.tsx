@@ -13,6 +13,8 @@ import Customers from './components/pages/Customers';
 import Solution from './components/pages/Solution';
 import Pricing from './components/pages/Pricing';
 import Tour from './components/pages/Tour';
+import Extend from './components/pages/Extend';
+import Inline from './components/pages/Inline';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <Route path='/solution' element={<Solution/>} />
       <Route path='/pricing' element={<Pricing/>} />
       <Route path='/tour' element={<Tour/>} />
+      <Route path='/extend' element={<Extend/>} />
+      <Route path='/inline' element={<Inline/>} />
     </Routes>
     <Footer/>
     </>

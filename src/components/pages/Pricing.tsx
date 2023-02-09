@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import { FaCheck } from "react-icons/fa";
 import Accordion from 'react-bootstrap/Accordion';
 
 function Pricing() {
@@ -15,62 +16,193 @@ function Pricing() {
         <Container>
             <Row className='align-items-center PricingRow'>
                 <Col></Col>
-                <Col sm={2}>
-                    <p>Compare Plans</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+                <Col sm={2} className='BgGrey'>
+                    <p className='BoldText'>Compare Plans</p>
+                    <p className='basic_plan_conatiner'>&nbsp;</p>
+                    <p className='basic_plan_type'>&nbsp;</p>
+                    <p className='basic_plan_type'>&nbsp;</p>
+                    <p className='basic_plan_type'>&nbsp;</p>
+                    <p className='basic_plan_type'>&nbsp;</p>
+                    <p className='text-small-des'>&nbsp;</p>
+                    <p className='text-small-des'>&nbsp;</p>
+                    
+                    
+                    <div className='btn-group-hide'>
+                        &nbsp;
+                    </div>
+                    <p className='plan-text'>Advantages</p>
+                    <p className='tippy-content'>License duration</p>
+                    <p className='tippy-content'>Monthly Active Users</p>
+                    <p className='tippy-content'>Number of Products</p>
+                    <p className='tippy-content'>Number of Domains</p>
+                    <p className='tippy-content'>Activation Key</p>
+                    <p className='tippy-content'>Free Updates</p>
+                    <p className='tippy-content'>Support</p>
+                    <p className='tippy-content'>Self-Hosted</p>
+                    <p className='tippy-content'>Watermark Free</p>
+                    <p className='plan-text'>Usage</p>
+                    <p className='tippy-content'>Unminified Source Code</p>
+                    <p className='tippy-content'>SaaS / Subscription</p>
+                    <p className='tippy-content'>Mobile Apps</p>
+                    <p className='tippy-content'>Internal Apps</p>
+                    <p className='tippy-content'>Redistribution/OEM</p>
                 </Col>
                 <Col sm={2} className='BgWhiteC'>
-                    <p>Free Trial</p>
-                    <p>$0</p>
+                    <p className='MediumText'>Free Trial</p>
+                    <p className='PricingText'>$0</p>
+                    <p className='PricingYear'>/year</p>
                     <p>&nbsp;</p>
                     <p>&nbsp;</p>
-                    <p>Perfect to test drive the editor with no commitments</p>
+                    <p className='TextSmallDes'>Perfect to test drive the editor with no commitments</p>
                     <p>&nbsp;</p>
                     <div className='btn-group'>
                         <Link to='/'>
-                            <a className='btn-price-plan'>Start Trial</a>
+                            <a className='BtnPricePlan'>Start Trial</a>
                         </Link>
                     </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>1</p>
+                    <p className='highlight-plan'>1</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>Community only</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='highlight-plan'>―</p>
+                    <p className='plan-text'>&nbsp;</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
                 </Col>
                 <Col sm={2} className='BgSky'>
-                    <p>Basic</p>
-                    <p>$0</p>
-                    <p>/year</p>
+                    <p className='MediumText'>Basic</p>
+                    <p className='PricingText'>$0</p>
+                    <p className='PricingYear'>/year</p>
                     <p>&nbsp;</p>
-                    <p>Perfect to test drive the editor with no commitments</p>
+                    <p>&nbsp;</p>
+                    <p className='TextSmallDes'>Perfect to test drive the editor with no commitments</p>
                     <p>&nbsp;</p>
                     <div className='btn-group'>
                         <Link to='/'>
                             <a className='btn-price-plan'>Start Trial</a>
                         </Link>
                     </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <p className='highlight-plan'>12 months</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>1</p>
+                    <p className='highlight-plan'>3</p>
+                    <p className='highlight-plan'>Wildcard</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='highlight-plan'>Community only</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
+                    <p className='highlight-plan'>―</p>
                 </Col>
                 <Col sm={2} className='BgWhiteC'>
-                    <p>Professional</p>
-                    <p>$0</p>
-                    <p>/year</p>
+                    <p className='MediumText'>Professional</p>
+                    <p className='PricingText'>$0</p>
+                    <p className='PricingYear'>/year</p>
                     <p>&nbsp;</p>
-                    <p>Perfect to test drive the editor with no commitments</p>
+                    <p>&nbsp;</p>
+                    <p className='TextSmallDes'>Perfect to test drive the editor with no commitments</p>
                     <p>&nbsp;</p>
                     <div className='btn-group'>
                         <Link to='/'>
                             <a className='btn-price-plan'>Start Trial</a>
                         </Link>
                     </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <p className='highlight-plan'>12 months</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>1</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>Wildcard</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='highlight-plan'>Included</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='highlight-plan'>―</p>
                 </Col>
                 <Col sm={2} className='BgSky'>
-                    <p>Enterprise</p>
-                    <p>$0</p>
-                    <p>/year</p>
+                    <p className='MediumText'>Enterprise</p>
+                    <p className='PricingText'>$0</p>
+                    <p className='PricingYear'>/year</p>
                     <p>&nbsp;</p>
-                    <p>Perfect to test drive the editor with no commitments</p>
+                    <p>&nbsp;</p>
+                    <p className='TextSmallDes'>Perfect to test drive the editor with no commitments</p>
                     <p>&nbsp;</p>
                     <div className='btn-group'>
                         <Link to='/'>
                             <a className='btn-price-plan'>Start Trial</a>
                         </Link>
+                    </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <p className='highlight-plan'>12 months</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>UNLIMITED</p>
+                    <p className='highlight-plan'>Wildcard</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='highlight-plan'>Included</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <p className='plan-text'>&nbsp;</p>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
+                    </div>
+                    <div className='PriceIcon'>
+                        <FaCheck/>
                     </div>
                 </Col>
                 <Col></Col>
