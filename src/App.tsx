@@ -15,6 +15,9 @@ import Pricing from './components/pages/Pricing';
 import Tour from './components/pages/Tour';
 import Extend from './components/pages/Extend';
 import Inline from './components/pages/Inline';
+import Plugin from './components/pages/Plugin';
+import Artstation from './components/pages/Artstation';
+import Closeio from './components/pages/Closeio';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
       <Route path='/tour' element={<Tour/>} />
       <Route path='/extend' element={<Extend/>} />
       <Route path='/inline' element={<Inline/>} />
+      <Route path='/plugin' element={<Plugin/>} />
+      <Route path='/artstation' element={<Artstation/>} />
+      <Route path='/closeio' element={<Closeio/>} />
     </Routes>
     <Footer/>
     </>
