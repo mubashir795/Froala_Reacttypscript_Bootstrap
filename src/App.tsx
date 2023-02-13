@@ -18,29 +18,33 @@ import Inline from './components/pages/Inline';
 import Plugin from './components/pages/Plugin';
 import Artstation from './components/pages/Artstation';
 import Closeio from './components/pages/Closeio';
+import Uploader from './components/pages/Uploader';
+import Unbounce from './components/pages/Unbounce';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/features' element={<Features/>} />
-      <Route path='/download' element={<Download/>} />
-      <Route path='/docs' element={<Docs/>} />
-      <Route path='/online' element={<Online/>} />
-      <Route path='/sencha' element={<Sencha/>} />
-      <Route path='/customers' element={<Customers/>} />
-      <Route path='/solution' element={<Solution/>} />
-      <Route path='/pricing' element={<Pricing/>} />
-      <Route path='/tour' element={<Tour/>} />
-      <Route path='/extend' element={<Extend/>} />
-      <Route path='/inline' element={<Inline/>} />
-      <Route path='/plugin' element={<Plugin/>} />
-      <Route path='/artstation' element={<Artstation/>} />
-      <Route path='/closeio' element={<Closeio/>} />
-    </Routes>
-    <Footer/>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/features' element={<Features/>} />
+        <Route path='/download' element={<Download/>} />
+        <Route path='/docs' element={<Docs/>} />
+        <Route path='/online' element={<Online/>} />
+        <Route path='/sencha' element={<Sencha/>} />
+        <Route path='/customers' element={<Customers/>} />
+        <Route path='/solution' element={<Solution/>} />
+        <Route path='/pricing' element={<Pricing/>} />
+        <Route path='/tour' element={<Tour/>} />
+        <Route path='/extend' element={<Extend/>} />
+        <Route path='/inline' element={<Inline/>} />
+        <Route path='/plugin' element={<Plugin/>} />
+        <Route path='/artstation' element={<Artstation/>} />
+        <Route path='/closeio' element={<Closeio/>} />
+        <Route path='/uploader' element={<Uploader/>} />
+        <Route path='/unbounce' element={<Unbounce/>} />
+      </Routes>
+      <Footer/>
     </>
   );
 }

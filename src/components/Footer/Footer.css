@@ -3,3 +3,24 @@
     padding: 2rem 0 2rem 0;
     color: #fff;
 }
+a.FooterLinks {
+    color: #fff;
+    text-decoration: none;
+}
+a.FooterLinks:hover {
+    color: #fff;
+}
+p.FooterTitle {
+    color: #0098f7;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .footer-href-items {
+        text-align: center !important;
+    }
+}
+.footer-href-items {
+    text-align: left;
+}

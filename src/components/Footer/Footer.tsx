@@ -1,68 +1,80 @@
 import React from 'react'
 import './Footer.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-
+import { Link } from 'react-router-dom';
+import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 function Footer() {
     return (
         <div className='footer-bg'>
-            <Container>
-                <Row>
-                    <Col sm={3}>
-                    <div className='footer-href-items'>
-                        <p>WYSIWYG EDITOR</p>
-                        <div className='mx-auto mb-4'>
-                            <a href='/'>Overview</a><br></br>
-                            <a href='/'>Features</a><br></br>
-                            <a href='/'>Pricing</a><br></br>
-                            <a href='/'>Download</a><br></br>
-                            <a href='/'>Examples</a><br></br>
-                            <a href='/'>FAQ</a><br></br>
-                            <a href='/'>solutions</a><br></br>
-                            <a href='/'>Legal</a>
+            <MDBContainer>
+                <MDBRow>
+                    <MDBCol sm={2} size='md'>
+                        <div className='footer-href-items'>
+                            <p className='FooterTitle'>WYSIWYG EDITOR</p>
+                            <div className='mx-auto mb-4'>
+                                <Link className='FooterLinks' to='/'>Overview</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Features</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Pricing</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Download</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Examples</Link><br></br>
+                                <Link className='FooterLinks' to='/'>FAQ</Link><br></br>
+                                <Link className='FooterLinks' to='/'>solutions</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Legal</Link>
+                            </div>
                         </div>
-                    </div>
-                    </Col>
-                    <Col sm={3}>
-                    <div className='footer-href-items'>
-                        <p>FREE TOOLS</p>
-                        <div className='mx-auto mb-4'>
-                            <a href='/'>Design Blocks</a><br></br>
-                            <a href='/'>Online HTML Editor</a><br></br>
-                            <a href='/'>Pages</a><br></br>
-                            <a href='/'>Image Uploader</a><br></br>
-                            <a href='/'>WebTestIt</a>
+                    </MDBCol>
+                    <MDBCol sm={2} size='md'>
+                        <div className='footer-href-items'>
+                            <p className='FooterTitle'>FREE TOOLS</p>
+                            <div className='mx-auto mb-4'>
+                                <Link className='FooterLinks' to='/'>Design Blocks</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Online HTML Editor</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Pages</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Image Uploader</Link><br></br>
+                                <Link className='FooterLinks' to='/'>WebTestIt</Link>
+                            </div>
                         </div>
-                    </div>
-                    </Col>
-                    <Col sm={3}>
-                    <div className='footer-href-items'>
-                        <p>Resource</p>
-                        <div className='mx-auto mb-4'>
-                            <a href='/'>React Grid</a><br></br>
-                            <a href='/'>Docs</a><br></br>
-                            <a href='/'>Quick Start</a><br></br>
-                            <a href='/'>Blog</a><br></br>
-                            <a href='/'>Support</a><br></br>
-                            <a href='/'>Contact Us</a><br></br>
-                            <a href='/'>Case Studies</a><br></br>
-                            <a href='/'>Customizer</a>
+                    </MDBCol>
+                    <MDBCol sm={2} size='md'>
+                        <div className='footer-href-items'>
+                            <p className='FooterTitle'>Resource</p>
+                            <div className='mx-auto mb-4'>
+                                <Link className='FooterLinks' to='/'>React Grid</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Docs</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Quick Start</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Blog</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Support</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Contact Us</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Case Studies</Link><br></br>
+                                <Link className='FooterLinks' to='/'>Customizer</Link>
+                            </div>
                         </div>
-                    </div>
-                    </Col>
-                    <Col sm={3}>
-                    <div className='footer-href-items'>
-                        <p>Get In Touch</p>
-                        <div className='mx-auto mb-4'>
-                            <a href='/'>support@froala.com</a><br></br>
+                    </MDBCol>
+                    <MDBCol sm={2} size='md'>
+                        <div className='footer-href-items'>
+                            <p className='FooterTitle'>Get In Touch</p>
+                            <div className='mx-auto mb-4'>
+                                <p>support@froala.com</p>
+                            </div>
                         </div>
-                    </div>
-                    </Col>
-                </Row>
-            </Container>
+                    </MDBCol>
+                    <MDBCol sm={2} size='md'>
+                        <div className='footer-href-items'>
+                            <p className='FooterTitle'>Sign Up</p>
+                            <div className='mx-auto mb-4'>
+                                <p>Join our email list and receive the latest case studies, event updates, product news, and much more!</p>
+                            </div>
+                        </div>
+                    </MDBCol>
+                </MDBRow>
+                <MDBRow className='align-items-center'>
+                    <MDBCol sm={2} size='md'><img  src={require('./images/froala-1.png')} width="115" height="32" /></MDBCol>
+                    <MDBCol sm={2} size='md'><img  src={require('../images/G2-Spring.png')} width="50" height="65" /></MDBCol>
+                    <MDBCol sm={2} size='md'></MDBCol>
+                    <MDBCol sm={2} size='md'></MDBCol>
+                    <MDBCol sm={2} size='md'></MDBCol>
+                </MDBRow>
+            </MDBContainer>
         </div>
     );
 }
