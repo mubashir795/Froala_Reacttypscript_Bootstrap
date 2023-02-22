@@ -20,6 +20,8 @@ import Artstation from './components/pages/Artstation';
 import Closeio from './components/pages/Closeio';
 import Uploader from './components/pages/Uploader';
 import Unbounce from './components/pages/Unbounce';
+import Contact from './components/pages/Contact';
+import Sdkc from './components/pages/Sdkc';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
         <Route path='/closeio' element={<Closeio/>} />
         <Route path='/uploader' element={<Uploader/>} />
         <Route path='/unbounce' element={<Unbounce/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/sdkc' element={<Sdkc/>} />
       </Routes>
       <Footer/>
     </>
